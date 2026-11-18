@@ -1,0 +1,24 @@
+id,category,question,reference_answer,expected_sections,expected_behaviour
+1,direct,What is the maximum normal working week?,"45 hours in one week (also max 8 hours a day, 5 hours without a 30-minute break, and a spread-over of 10 hours).",60A,answer
+2,direct,How long is the paid maternity leave?,"An eligible period of not less than 98 consecutive days per confinement; allowance conditions apply (90 days employed in the 9 months before confinement).",37,answer
+3,direct,How much notice must be given to terminate a contract of service if the contract says nothing?,"Not less than 4 weeks (under 2 years of service), 6 weeks (2 to under 5 years), 8 weeks (5 years or more).",12,answer
+4,direct,How many days of paid sick leave is an employee entitled to?,"Without hospitalisation: 14 / 18 / 22 days a year by length of service (under 2 / 2 to 5 / over 5 years); 60 days if hospitalisation is necessary.",60F,answer
+5,direct,How many days of annual leave does an employee with 3 years of service get?,12 days for every 12 months of continuous service (2 years or more but less than 5).,60E,answer
+6,direct,How many days of paternity leave can a married male employee take?,"7 consecutive days per confinement (up to five confinements); needs 12 months with the same employer and notice of the pregnancy.",60FA,answer
+7,direct,By when must wages be paid?,Not later than the seventh day after the last day of the wage period (s.19(1)); rest day / holiday / overtime pay by the last day of the next wage period.,19,answer
+8,direct,Is there a limit on how much an employer can deduct from my wages in a month?,"Total deductions in a month shall not exceed 50% of wages earned, with exceptions in s.24(9).",24,answer
+9,direct,Can an employee ask to change their working hours or place of work?,"Yes: flexible working arrangement; employer must approve or refuse within 60 days and state the ground for any refusal.",60P;60Q,answer
+10,direct,Can an employer dismiss a pregnant employee?,"It is an offence to terminate a pregnant employee except for wilful breach (s.13(2)), misconduct (s.14(1)) or closure of the business; burden of proof is on the employer.",41A,answer
+11,direct,How many paid public holidays is an employee entitled to?,"Eleven gazetted public holidays, five of which are compulsory (National Day, Agong's Birthday, Ruler's Birthday or Federal Territory Day, Workers' Day, Malaysia Day).",60D,answer
+12,multi_section,Can I be forced to work on my rest day and how is it paid?,"No compulsion except shift work or emergencies (s.60(1), s.60A(2)); pay rates for rest-day work are in s.60(3). Every employee gets one rest day a week (s.59).",59;60;60A,answer
+13,multi_section,What is the overtime rate and when does work count as overtime?,"At least 1.5 times the hourly rate (s.60A(3)); overtime is hours beyond normal hours per day; rest day and public holiday pay are separate rates (s.60, s.60D).",60A;60;60D,answer
+14,scenario,My employer makes me work 12 hours a day. Is this allowed?,"Normally no: 8 hours a day / 45 a week (s.60A(1)), up to 9 hours a day if other days are shorter; hours beyond normal hours are overtime; no employer may require more than 12 hours in a day except in emergencies (s.60A(7)).",60A,answer
+15,scenario,Can my employer dismiss me for misconduct without any inquiry?,"Section 14(1) allows dismissal without notice for misconduct only 'after due inquiry'; suspension during inquiry is limited to two weeks with at least half wages (s.14(2)).",14,answer
+16,scenario,I have been absent for three days without telling my employer. Can they treat my contract as broken?,"An employee is deemed to have broken the contract if continuously absent more than two consecutive working days without prior leave or reasonable excuse (s.15(2)).",15,answer
+17,ambiguous,Can my boss cut my pay?,TODO decide: the system should qualify its answer (s.7 and s.24) or ask what kind of pay cut,7;24,answer
+18,ambiguous,Does the overtime rule apply to me?,TODO read the First Schedule: coverage by Part XII depends on who the employee is,SCH1,answer
+19,unsupported,What are my rights as a worker in Sabah under this Act?,Abstain: the Act applies to Peninsular Malaysia and Labuan; Sabah has its own ordinance,,abstain
+20,unsupported,What is the latest 2027 income tax relief limit?,Abstain: out of scope (tax),,abstain
+21,unsupported,How many days of annual leave do workers in Singapore get?,Abstain: out of scope (other country),,abstain
+22,unsupported,What remedies can the Industrial Court award for unfair dismissal?,Abstain: governed by the Industrial Relations Act 1967,,abstain
+23,unsupported,What is the current monthly minimum wage?,Abstain: set by the Minimum Wage Order not this Act,,abstain

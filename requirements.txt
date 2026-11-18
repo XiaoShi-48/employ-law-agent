@@ -1,0 +1,12 @@
+langchain-openrouter
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langgraph
+python-dotenv
+pydantic>=2
+pypdf
+pandas
+sentence-transformers
+ipykernel

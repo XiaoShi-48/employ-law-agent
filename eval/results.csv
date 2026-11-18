@@ -1,0 +1,96 @@
+id,category,system,abstained,latency,answer,behaviour_ok,retrieval_hit,citation_ok,faithful
+1,direct,baseline,False,6.989093542098999,Forty-five hours per week. [s.60A],True,True,True,True
+1,direct,agentic,False,28.70113968849182,"- The maximum normal working week is forty-five hours in one week [s.60A].
+
+- For shift work, the average number of hours worked over any period of three weeks, or over any period exceeding three weeks as approved, shall not exceed forty-five per week [s.60C].",True,True,True,True
+2,direct,baseline,False,8.39173698425293,Not less than ninety-eight consecutive days. [s.37],True,True,True,True
+2,direct,agentic,False,12.34167742729187,Not less than ninety-eight consecutive days. [s.37],True,True,True,True
+3,direct,baseline,False,26.932332277297974,Not less than four weeks’ notice if the employee has been employed for less than two years; not less than six weeks’ notice if employed for two years or more but less than five years; not less than eight weeks’ notice if employed for five years or more. The notice length must be the same for both pa,True,True,True,True
+3,direct,agentic,False,17.96686029434204,"- Not less than four weeks’ notice if the employee has been employed for less than two years [s.12].
+- Not less than six weeks’ notice if employed for two years or more but less than five years [s.12].
+- Not less than eight weeks’ notice if employed for five years or more [s.12].",True,True,True,True
+4,direct,baseline,False,16.8824303150177,"- If hospitalization is not necessary: 14 days in aggregate per calendar year for less than 2 years’ service; 18 days for 2 years or more but less than 5; and 22 days for 5 years or more. [s.60F]
+- If hospitalization is necessary: 60 days in aggregate per calendar year. [s.60F]
+- Additionally, after",True,True,True,True
+4,direct,agentic,False,16.76930069923401,"- Less than 2 years of employment: fourteen days per calendar year [s.60F]
+- 2 years or more but less than 5 years: eighteen days per calendar year [s.60F]
+- Five years or more: twenty-two days per calendar year [s.60F]
+- If hospitalization is necessary: sixty days per calendar year [s.60F]",True,True,True,True
+5,direct,baseline,False,16.38651394844055,36 days of annual leave. [s.60E],True,True,True,False
+5,direct,agentic,True,54.926464557647705,I could not produce an answer that was fully supported by the source text. Please check with the Labour Department (JTKSM) or a qualified professional.,False,True,False,
+6,direct,baseline,False,13.555240869522095,"- Seven consecutive days of paid paternity leave per confinement [s.60FA].
+- This entitlement is restricted to a maximum of five confinements irrespective of the number of spouses [s.60FA].",True,True,True,True
+6,direct,agentic,False,20.20743179321289,"- Seven consecutive days of paid paternity leave for each confinement [s.60FA].
+- This is restricted to five confinements irrespective of the number of spouses [s.60FA].",True,True,True,True
+7,direct,baseline,False,18.08176612854004,"- Generally, wages must be paid not later than the seventh day after the last day of any wage period. [s.19(1)]
+- Wages for work on a rest day, gazetted public holiday (para 60 d(1)(a) and (b)) and overtime (section 60 a) must be paid not later than the last day of the next wage period. [s.19(2)]
+- ",True,True,True,True
+7,direct,agentic,False,16.276203870773315,"- Generally: wages must be paid not later than the seventh day after the last day of the wage period [s.19(1)].
+- For work on a rest day, a gazetted public holiday (referenced in paragraphs 60 d(1)(a) and (b)), and overtime: wages must be paid not later than the last day of the next wage period [s.1",True,True,True,True
+8,direct,baseline,False,30.236578226089478,"Yes. The total of any amounts deducted from wages in a single month shall not exceed fifty per centum of the wages earned in that month. [s.24]
+
+However, the limit does not apply to certain deductions: (a) from the indemnity payable by an employer to an employee under subsection 13(1); (b) from the ",True,True,True,True
+8,direct,agentic,False,21.18686819076538,"- Yes. The total deductions from an employee’s wages in any one month shall not exceed fifty per cent of the wages earned in that month. [s.24(8)]
+- However, deductions from the indemnity payable by an employer to an employee under subsection 13(1) are not subject to this limit. [s.24(9)(a)]
+- Deduc",True,True,True,True
+9,direct,baseline,True,5.824523687362671,INSUFFICIENT_EVIDENCE,False,False,False,
+9,direct,agentic,False,31.521526336669922,"- The Director General may grant permission to an employer to require employees to work in excess of the prescribed hours, on a written application by the employer, subject to conditions; the approval can be revoked by the Director General. [s.60A]
+
+- If someone is dissatisfied with the Director Gen",True,False,False,True
+10,direct,baseline,False,16.95450782775879,"An employer shall not terminate a pregnant employee or give notice of termination, except on the grounds of (a) wilful breach of a condition of the contract of service under subsection 13(2); (b) misconduct under subsection 14(1); or (c) closure of the employer’s business. [s.41A(1)]
+
+If such a term",True,True,True,True
+10,direct,agentic,False,24.333868503570557,"No—an employer generally cannot terminate or dismiss a pregnant employee; it is an offence to terminate her services or give notice of termination, except on the grounds of wilful breach of a condition of the contract of service under subsection 13(2); misconduct under subsection 14(1); or closure o",True,True,True,True
+11,direct,baseline,False,12.394816160202026,"An employee is entitled to a paid holiday on eleven gazetted public holidays, plus on any day appointed as a public holiday for that year under section 8 of the Holidays Act 1951. [s.60D]",True,True,True,True
+11,direct,agentic,False,24.051031351089478,"- An employee is entitled to paid holidays on eleven of the gazetted public holidays plus any day appointed as a public holiday for that particular year under section 8 of the Holidays Act 1951. [s.60D]
+- If any of the public holidays referred to in paragraphs (a) and (b) falls on a rest day or any ",True,True,True,True
+12,multi_section,baseline,False,29.16575527191162,"- Generally you cannot be forced to work on your rest day. Section 60(1) says no employee shall be compelled to work on a rest day except as provided in 60A(2), and only if the work is of a nature that requires to be carried on continuously or continually by two or more shifts (the Director General ",True,True,True,True
+12,multi_section,agentic,False,44.81042790412903,"- Can I be forced to work on my rest day? Generally no. You shall not be compelled to work on a rest day unless the work, by its nature, requires to be carried on continuously or continually by two or more shifts; the Director General can decide in any dispute. [s.60]
+
+- If you work on a rest day, h",True,True,True,True
+13,multi_section,baseline,False,15.471240758895874,"- Overtime rate: not less than one and a half times the employee’s hourly rate of pay [s.60A].
+- When it counts as overtime: any hours worked in excess of the normal hours of work per day [s.60A].
+- Special rule for long spread: if work is carried out after the spread over period of ten hours, the w",True,True,True,True
+13,multi_section,agentic,True,14.439964056015015,I could not find enough reliable evidence in the Employment Act 1955 to answer this. Please check with the Labour Department (JTKSM) or a qualified professional.,False,True,False,
+14,scenario,baseline,True,19.29593801498413,INSUFFICIENT_EVIDENCE,False,True,False,
+14,scenario,agentic,True,23.5723774433136,I could not find enough reliable evidence in the Employment Act 1955 to answer this. Please check with the Labour Department (JTKSM) or a qualified professional.,False,True,False,
+15,scenario,baseline,False,17.41516399383545,"No. The law allows dismissal without notice only after a due inquiry into the misconduct [s.14(1)]. During the inquiry, the employer may suspend the employee for up to two weeks with pay, and if no misconduct is found, the wages withheld must be restored [s.14(2)].",True,True,True,True
+15,scenario,agentic,False,32.329100131988525,"No. Dismissal without notice on grounds of misconduct is only possible after due inquiry under s.14(1) [s.14(1)]. The statute states you must have a due inquiry before such a dismissal [s.14(1)]. 
+
+During the inquiry, the employer may suspend the employee for up to two weeks and must pay at least ha",True,True,True,True
+16,scenario,baseline,False,12.705562353134155,"Yes. Under s.15(2) of the Act, an employee shall be deemed to have broken his contract of service with the employer if he has been continuously absent from work for more than two consecutive working days without prior leave from his employer, unless he has a reasonable excuse and has informed or att",True,True,True,True
+16,scenario,agentic,False,23.118739128112793,"Yes. Under s.15(2), an employee shall be deemed to have broken his contract of service with the employer if he has been continuously absent from work for more than two consecutive working days without prior leave from his employer, unless he has a reasonable excuse and has informed or attempted to i",True,True,True,True
+17,ambiguous,baseline,False,37.551608085632324,"Yes, but only as a lawful deduction under the Employment Act 1955.
+
+- The total amount deducted in any one month must not exceed 50% of the employee’s wages for that month. [s.24(8)]
+- The Director General may permit deductions for a specified purpose from wages, subject to conditions. [s.24(7)]
+- T",True,True,True,True
+17,ambiguous,agentic,False,29.13025689125061,"Yes, but only within the rules below.
+
+- Deductions from your wages in a given month generally must not exceed 50% of the wages earned in that month. [s.24]
+
+- There are exceptions where the 50% limit does not apply:
+  - Deductions from an indemnity payable under subsection 13(1). [s.24]
+  - Deducti",True,True,True,True
+18,ambiguous,baseline,False,25.771013021469116,"Yes, if you are an employee and you work overtime beyond your normal hours, the overtime rule applies to you. [s.60A]
+
+- Overtime must be paid at not less than 1.5 times your hourly rate of pay. [s.60A]
+
+- Overtime means hours worked in excess of the normal hours of work per day. [s.60A]
+
+- Normal h",True,False,False,True
+18,ambiguous,agentic,False,26.99310278892517,"Yes. The overtime rule generally applies to employees who work overtime beyond their normal hours, with several conditions and limits described in the Act. [s.60A]
+
+- Overtime pay: Any overtime work carried out in excess of the normal hours of work must be paid at not less than 1.5 times the employe",True,False,False,True
+19,unsupported,baseline,False,45.24310636520386,"- Sabah is outside the scope of the Employment Act 1955, because the Act applies to Peninsular Malaysia only [s.1]. Therefore, Sabah workers are not covered by this Act and do not have rights under it.
+
+- If you were in Peninsular Malaysia, your rights would include hours of work and overtime protec",False,,,True
+19,unsupported,agentic,True,1.0322482585906982,"Sabah and Sarawak have their own labour ordinances, which this system does not cover. Please check with the Labour Department (JTKSM) or a qualified professional.",True,,,
+20,unsupported,baseline,True,3.1341865062713623,INSUFFICIENT_EVIDENCE,True,,,
+20,unsupported,agentic,True,1.022367238998413,This question is outside the scope of the Employment Act 1955 knowledge base. Please check with the Labour Department (JTKSM) or a qualified professional.,True,,,
+21,unsupported,baseline,True,2.8947272300720215,INSUFFICIENT_EVIDENCE,True,,,
+21,unsupported,agentic,True,0.936438798904419,This question is outside the scope of the Employment Act 1955 knowledge base. Please check with the Labour Department (JTKSM) or a qualified professional.,True,,,
+22,unsupported,baseline,True,3.514180898666382,INSUFFICIENT_EVIDENCE,True,,,
+22,unsupported,agentic,True,4.6333441734313965,I could not find enough reliable evidence in the Employment Act 1955 to answer this. Please check with the Labour Department (JTKSM) or a qualified professional.,True,,,
+23,unsupported,baseline,True,2.988295555114746,INSUFFICIENT_EVIDENCE,True,,,
+23,unsupported,agentic,True,6.583320379257202,I could not find enough reliable evidence in the Employment Act 1955 to answer this. Please check with the Labour Department (JTKSM) or a qualified professional.,True,,,
